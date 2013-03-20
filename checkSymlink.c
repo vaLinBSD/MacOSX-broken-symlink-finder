@@ -1,5 +1,11 @@
 /*
  * Check if a symlink is corrupted.
+ *
+ * Author: Daniel Boulet
+ * Released into the public domain 2013/03/19
+ *
+ * This software is provided without any warrantee of any kind.
+ * Use at your own risk.
  */
 
 #include <stdlib.h>
