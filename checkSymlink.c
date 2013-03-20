@@ -15,7 +15,8 @@ cleanValue( char *value, int length ) {
     char *src = value;
     char *dst = rval;
 
-    for ( int i = 0; i < length; i += 1 ) {
+    int i;
+    for ( i = 0; i < length; i += 1 ) {
 
 	if ( i >= 10000 - 10 ) {
 
@@ -54,7 +55,8 @@ toHex( char *value, int length ) {
     dst = rval;
 
     int offset = 0;
-    for ( int i = 0; i < length; i += 1 ) {
+    int i;
+    for ( i = 0; i < length; i += 1 ) {
 
 	if ( dst - rval >= 20000 - 10 ) {
 
@@ -107,7 +109,8 @@ main( int argc, char **argv ) {
 
 	    linkValue[linkLength] = '\0';
 	    int binaryOffset = -1;
-	    for ( int i = 0; i < linkLength; i += 1 ) {
+	    int i;
+	    for ( i = 0; i < linkLength; i += 1 ) {
 
 		if ( linkValue[i] < ' ' || linkValue[i] > '~' ) {
 
