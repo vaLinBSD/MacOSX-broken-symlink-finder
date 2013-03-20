@@ -1,7 +1,7 @@
 MacOSX-broken-symlink-finder
 ============================
 
-Contains a program which can be used to find the sort of broken symlinks that frequently occur on Mac OS X Mountain Lion if your hard drive partition is over 2TB
+Contains a program which can be used to find the sort of broken symlinks that frequently occur on Mac OS X Mountain Lion if your hard drive partition is over 2TB.
 
 Once you have compiled the program, issue the following find command:
 
@@ -12,6 +12,8 @@ You must issue the find command using root privileges from the directory contain
 This can take quite a while.
 
 The symlinks that this program finds are probably but not necessarily broken.  Use some judgement when fixing them.
+
+Note: if you do not know how to compile this program then you should probably seek assistance from someone who does (do NOT contact the author).
 
 IMPORTANT:
 
